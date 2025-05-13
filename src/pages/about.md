@@ -1,36 +1,31 @@
 ---
 layout: ../layouts/AboutLayout.astro
 title: "About"
+profile: ../assets/images/profile.png";
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+A CyberSecurity engineer and software engineer passionate about building clean, high-performance, and securing applications.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+My journey started in 2023 when I was working as a freelance for Fiver, it honed my software engineering skills and code writting skills. Then worked for Accenture as a team to deliver a high end online classroom application. After my graduation I embarked on a CyberSecurity journey as I was an Asssociate Engineer at *Ignite Africa* for one year. 
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
 
-<div>
-  <img src="/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
 
-## Tech Stack
+## Skills
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+- **Languages & Frameworks**: C programing, Java, JavaScript, Python, React, Spring Boot  
+- **Styling**: TailwindCSS  
+- **Focus Areas**: Full-stack development, CyberSecurity, intuitive UI/UX, and Data engineering  
 
-## Features
 
-Here are certain features of this site.
+## Interests
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+Beyond engineering, I’m also passionate about:
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+- **Poetry** – Writing introspective pieces exploring human emotion and growth  
+- **Badminton & Running** – Competing and training with the goal of reaching elite levels  
+- **Learning** – Studying data science and machine learning to bridge engineering with intelligent systems  
+- **Languages & Cutural Learning** – I enjoy learning new lauguages and other cultures from around the world to better connect and explore the world.  
+
+Let’s connect — [email me](mailto:emmanuelburuvuru@example.com) or reach out on [LinkedIn](#).
+
+---

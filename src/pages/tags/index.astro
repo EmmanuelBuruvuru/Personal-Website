@@ -1,23 +1,48 @@
 ---
-import { getCollection } from "astro:content";
 import Main from "@/layouts/Main.astro";
 import Layout from "@/layouts/Layout.astro";
-import Tag from "@/components/Tag.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
-import getUniqueTags from "@/utils/getUniqueTags";
 import { SITE } from "@/config";
 
-const posts = await getCollection("blog");
-
-let tags = getUniqueTags(posts);
+const projects = [
+  {
+    title: "Avail Sport Application",
+    description: "A pending project built with FlutterFlow to connect users with sports, gym, and educational activities in Mauritius.",
+    status: "In Progress",
+    technologies: ["FlutterFlow", "Firebase Database", "Figma Design"],
+  },
+  {
+    title: "Online Classroom for Accenture",
+    description: "Developed an internal online classroom platform to facilitate learning sessions for Accenture employees.",
+    status: "Completed",
+    technologies: ["Spring Boot", "Java", "JavaScript", "React JS", "REST API", "MongoDB"],
+  },
+  {
+    title: "Custom Machine Learning Models",
+    description: "Created machine learning models tailored to predict user-defined metrics for business-specific datasets.",
+    status: "Completed",
+    technologies: ["Python", "Anaconda", "Azure Virtual Machines", "LLaMA"],
+  },
+];
 ---
 
-<Layout title={`Tags | ${SITE.title}`}>
+<Layout title={`Projects | ${SITE.title}`}>
   <Header />
-  <Main pageTitle="Tags" pageDesc="All the tags used in posts.">
-    <ul>
-      {tags.map(({ tag, tagName }) => <Tag {tag} {tagName} size="lg" />)}
+  <Main pageTitle="Projects" pageDesc="A list of projects I've built or contributed to.">
+    <ul class="space-y-6">
+      {projects.map(project => (
+        <li class="p-6 border rounded-2xl shadow-sm border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 transition-colors">
+          <h2 class="text-2xl font-semibold text-accent dark:text-accent-light">{project.title}</h2>
+          <p class="text-gray-700 dark:text-gray-300 mt-2">{project.description}</p>
+          <p class="text-sm text-blue-600 dark:text-blue-400 italic mt-1">Status: {project.status}</p>
+          <ul class="list-disc list-inside mt-3 text-sm text-gray-800 dark:text-gray-200">
+            {project.technologies.map(tech => (
+              <li>{tech}</li>
+            ))}
+          </ul>
+        </li>
+      ))}
     </ul>
   </Main>
   <Footer />
