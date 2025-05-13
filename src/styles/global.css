@@ -83,3 +83,12 @@ html[data-theme="dark"] {
   width: 0;
   animation: typewriter 3s steps(30, end) forwards, blink 0.75s step-end infinite;
 }
+
+@layer base {
+  /* override Typography plugin’s strong color */
+  .prose strong {
+    color: var(--accent);
+  }
+}
+
+

@@ -1,31 +1,38 @@
 ---
 layout: ../layouts/AboutLayout.astro
 title: "About"
-profile: ../assets/images/profile.png";
+profile: ../assets/images/profile.png
 ---
 
-A CyberSecurity engineer and software engineer passionate about building clean, high-performance, and securing applications.
+<strong class="text-blue-500 dark:text-orange-500">Hello!</strong> I’m a Cybersecurity & Software Engineer who loves building clean, performant, and secure applications.
 
-My journey started in 2023 when I was working as a freelance for Fiver, it honed my software engineering skills and code writting skills. Then worked for Accenture as a team to deliver a high end online classroom application. After my graduation I embarked on a CyberSecurity journey as I was an Asssociate Engineer at *Ignite Africa* for one year. 
+My journey began in 2022 as a <strong class="text-blue-500 dark:text-orange-500">Freelance Software Engineer on Fiverr</strong>, where I delivered end-to-end solutions—designing MySQL schemas, writing Python scripts, containerizing with Docker, and exposing RESTful APIs in C and Python. In 2023, I joined <strong class="text-blue-500 dark:text-orange-500">Accenture</strong> to help architect and launch a full-stack online classroom using Java, Spring Boot, RESTful APIs, React.js, and MongoDB. After graduation, I pivoted into cybersecurity at <strong class="text-blue-500 dark:text-orange-500">Ignite Africa</strong>, designing and enforcing security architectures with Check Point firewalls, Microsoft Intune, internal/external policy frameworks, and Rapid7, while handling threat detection and incident response across our environments.
 
-
+---
 
 ## Skills
 
-- **Languages & Frameworks**: C programing, Java, JavaScript, Python, React, Spring Boot  
-- **Styling**: TailwindCSS  
-- **Focus Areas**: Full-stack development, CyberSecurity, intuitive UI/UX, and Data engineering  
+| Category                   | Technologies                                                                         |
+| -------------------------- | ------------------------------------------------------------------------------------ |
+| **Languages & Frameworks** | Java · JavaScript · Python · C · TypeScript · Node.js · React.js · Spring Boot       |
+| **DevOps & Cloud**         | Docker · Kubernetes · CI/CD (GitHub Actions) · Azure · AWS                            |
+| **Databases & Storage**    | MySQL · PostgreSQL · MongoDB · Firebase                                               |
+| **Security & Monitoring**  | Check Point · Microsoft Intune · Rapid7 · OWASP · SIEM · Vulnerability Scanning       |
+| **Styling & UI**           | Tailwind CSS · CSS3 · HTML5                                                           |
+| **Tools & Design**         | Git · GitHub · Figma · IntelliJ IDE                                                   |
 
+---
 
 ## Interests
 
-Beyond engineering, I’m also passionate about:
+I’m also passionate about:
 
-- **Poetry** – Writing introspective pieces exploring human emotion and growth  
-- **Badminton & Running** – Competing and training with the goal of reaching elite levels  
-- **Learning** – Studying data science and machine learning to bridge engineering with intelligent systems  
-- **Languages & Cutural Learning** – I enjoy learning new lauguages and other cultures from around the world to better connect and explore the world.  
 
-Let’s connect — [email me](mailto:emmanuelburuvuru@example.com) or reach out on [LinkedIn](#).
+- <strong class="text-blue-500 dark:text-orange-500">Badminton & Running</strong> – Training and competing with an eye toward elite performance  
+- <strong class="text-blue-500 dark:text-orange-500">Continuous Learning</strong> – Diving into data science, ML, and AI to build smarter systems  
+- <strong class="text-blue-500 dark:text-orange-500">Cultural Exchange</strong> – Studying new languages and traditions to connect across borders 
+- <strong class="text-blue-500 dark:text-orange-500">Creative Writing</strong> – Crafting introspective poetry that explores human emotion   
 
 ---
+
+> 👉 **Let’s connect** — [email me](mailto:emmanuelburuvuru@example.com) or find me on [LinkedIn](https://www.linkedin.com/in/emmanuel-buruvuru-a20b46246/).

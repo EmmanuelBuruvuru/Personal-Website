@@ -20,7 +20,7 @@ export interface Props {
 const {
   title = SITE.title,
   author = SITE.author,
-  profile = SITE.profile,
+  profile = SITE.author,
   description = SITE.desc,
   ogImage = SITE.ogImage ? `/${SITE.ogImage}` : "/og.png",
   canonicalURL = new URL(Astro.url.pathname, Astro.url),

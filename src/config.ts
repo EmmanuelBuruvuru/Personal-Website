@@ -1,7 +1,7 @@
 export const SITE = {
   website: "https://emmanuel-buruvuru.dev/", // replace this with your deployed domain
   author: "Emmanuel Buruvuru",
-  desc: "Engineer. Poet. Athlete.",
+  desc: "Engineer",
   title: "EB",
   ogImage: "site-preview.png",
   lightAndDarkMode: true,
