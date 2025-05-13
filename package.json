@@ -13,8 +13,11 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@astrojs/preact": "^4.0.11",
+    "@astrojs/react": "^4.2.7",
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/solid-js": "^5.0.10",
     "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/vite": "^4.0.14",
     "astro": "^5.5.2",
